@@ -1,0 +1,1995 @@
+{
+	responseContext: {
+		serviceTrackingParams: [
+			{
+				service: "GFEEDBACK",
+				params: [
+					{ key: "is_viewed_live", value: "False" },
+					{ key: "logged_in", value: "0" },
+					{ key: "country-type", value: "B" },
+					{
+						key: "e",
+						value:
+							"23961732,23940248,23839597,23948841,23969635,23934970,23964306,23972783,23735348,23969486,24590298,23973299,23884386,23882502,23974038,23955373,23962572,23946420,23804281,23918597,23857950,23927767,23944779,1714256,23958692,23970974,23942338,23967192,23970895,23942633,23911055,23955809,23965224,23967043,23951620,23973484,23970867,23744176,23969935,23933791,23890959",
+					},
+				],
+			},
+			{
+				service: "CSI",
+				params: [
+					{ key: "c", value: "WEB" },
+					{ key: "cver", value: "2.20201120.01.00" },
+					{ key: "yt_li", value: "0" },
+					{
+						key: "GetPlayer_rid",
+						value: "0xd02e8b90156d88b1",
+					},
+				],
+			},
+			{
+				service: "GUIDED_HELP",
+				params: [{ key: "logged_in", value: "0" }],
+			},
+			{
+				service: "ECATCHER",
+				params: [
+					{ key: "client.version", value: "2.20201118" },
+					{ key: "client.name", value: "WEB" },
+				],
+			},
+		],
+		webResponseContextExtensionData: {
+			ytConfigData: {
+				visitorData: "CgtZZG5LVWNHa2NIWSiUkOP9BQ%3D%3D",
+				rootVisualElementType: 3832,
+			},
+			hasDecorated: true,
+		},
+	},
+	playabilityStatus: {
+		status: "OK",
+		playableInEmbed: true,
+		miniplayer: {
+			miniplayerRenderer: {
+				playbackMode: "PLAYBACK_MODE_ALLOW",
+			},
+		},
+		contextParams: "Q0FFU0FnZ0M=",
+	},
+	playbackTracking: {
+		videostatsPlaybackUrl: {
+			baseUrl:
+				"https://s.youtube.com/api/stats/playback?cl=343576433\u0026docid=ukzFI9rgwfU\u0026ei=FMi4X9CVH7aBssUP8YarwAY\u0026fexp=1714256%2C23735348%2C23744176%2C23804281%2C23839597%2C23857950%2C23882502%2C23884386%2C23890959%2C23911055%2C23918597%2C23927767%2C23933791%2C23934970%2C23940248%2C23942338%2C23942633%2C23944779%2C23946420%2C23948841%2C23951620%2C23955373%2C23955809%2C23958692%2C23961732%2C23962572%2C23964306%2C23965224%2C23967043%2C23967192%2C23969486%2C23969635%2C23969935%2C23970867%2C23970895%2C23970974%2C23972783%2C23973299%2C23973484%2C23974038%2C24590298\u0026ns=yt\u0026plid=AAW0mUr7SfoEaGpc\u0026el=detailpage\u0026len=472\u0026of=_qCnwGk-KWlmu42OAuiBCg\u0026vm=CAEQABgEKiBpaGFvRkVWTjlSWVFGbThWMzd3VVFUTEthLVUtQ2cyODoyQU9HdF9PSU5ETDdqUkEwRkRfaEJoaklmUlpTVkI5ZTZ3dkQtbExyem5ZbmpIMmpESmc",
+		},
+		videostatsDelayplayUrl: {
+			baseUrl:
+				"https://s.youtube.com/api/stats/delayplay?cl=343576433\u0026docid=ukzFI9rgwfU\u0026ei=FMi4X9CVH7aBssUP8YarwAY\u0026fexp=1714256%2C23735348%2C23744176%2C23804281%2C23839597%2C23857950%2C23882502%2C23884386%2C23890959%2C23911055%2C23918597%2C23927767%2C23933791%2C23934970%2C23940248%2C23942338%2C23942633%2C23944779%2C23946420%2C23948841%2C23951620%2C23955373%2C23955809%2C23958692%2C23961732%2C23962572%2C23964306%2C23965224%2C23967043%2C23967192%2C23969486%2C23969635%2C23969935%2C23970867%2C23970895%2C23970974%2C23972783%2C23973299%2C23973484%2C23974038%2C24590298\u0026ns=yt\u0026plid=AAW0mUr7SfoEaGpc\u0026el=detailpage\u0026len=472\u0026of=_qCnwGk-KWlmu42OAuiBCg\u0026vm=CAEQABgEKiBpaGFvRkVWTjlSWVFGbThWMzd3VVFUTEthLVUtQ2cyODoyQU9HdF9PSU5ETDdqUkEwRkRfaEJoaklmUlpTVkI5ZTZ3dkQtbExyem5ZbmpIMmpESmc",
+		},
+		videostatsWatchtimeUrl: {
+			baseUrl:
+				"https://s.youtube.com/api/stats/watchtime?cl=343576433\u0026docid=ukzFI9rgwfU\u0026ei=FMi4X9CVH7aBssUP8YarwAY\u0026fexp=1714256%2C23735348%2C23744176%2C23804281%2C23839597%2C23857950%2C23882502%2C23884386%2C23890959%2C23911055%2C23918597%2C23927767%2C23933791%2C23934970%2C23940248%2C23942338%2C23942633%2C23944779%2C23946420%2C23948841%2C23951620%2C23955373%2C23955809%2C23958692%2C23961732%2C23962572%2C23964306%2C23965224%2C23967043%2C23967192%2C23969486%2C23969635%2C23969935%2C23970867%2C23970895%2C23970974%2C23972783%2C23973299%2C23973484%2C23974038%2C24590298\u0026ns=yt\u0026plid=AAW0mUr7SfoEaGpc\u0026el=detailpage\u0026len=472\u0026of=_qCnwGk-KWlmu42OAuiBCg\u0026vm=CAEQABgEKiBpaGFvRkVWTjlSWVFGbThWMzd3VVFUTEthLVUtQ2cyODoyQU9HdF9PSU5ETDdqUkEwRkRfaEJoaklmUlpTVkI5ZTZ3dkQtbExyem5ZbmpIMmpESmc",
+		},
+		ptrackingUrl: {
+			baseUrl:
+				"https://www.youtube.com/ptracking?ei=FMi4X9CVH7aBssUP8YarwAY\u0026plid=AAW0mUr7SfoEaGpc\u0026pltype=contentugc\u0026ptk=youtube_none\u0026video_id=ukzFI9rgwfU",
+		},
+		qoeUrl: {
+			baseUrl:
+				"https://s.youtube.com/api/stats/qoe?cl=343576433\u0026docid=ukzFI9rgwfU\u0026ei=FMi4X9CVH7aBssUP8YarwAY\u0026event=streamingstats\u0026fexp=1714256%2C23735348%2C23744176%2C23804281%2C23839597%2C23857950%2C23882502%2C23884386%2C23890959%2C23911055%2C23918597%2C23927767%2C23933791%2C23934970%2C23940248%2C23942338%2C23942633%2C23944779%2C23946420%2C23948841%2C23951620%2C23955373%2C23955809%2C23958692%2C23961732%2C23962572%2C23964306%2C23965224%2C23967043%2C23967192%2C23969486%2C23969635%2C23969935%2C23970867%2C23970895%2C23970974%2C23972783%2C23973299%2C23973484%2C23974038%2C24590298\u0026ns=yt\u0026plid=AAW0mUr7SfoEaGpc",
+		},
+		setAwesomeUrl: {
+			baseUrl:
+				"https://www.youtube.com/set_awesome?ei=FMi4X9CVH7aBssUP8YarwAY\u0026plid=AAW0mUr7SfoEaGpc\u0026video_id=ukzFI9rgwfU",
+			elapsedMediaTimeSeconds: 120,
+		},
+		atrUrl: {
+			baseUrl:
+				"https://s.youtube.com/api/stats/atr?docid=ukzFI9rgwfU\u0026ei=FMi4X9CVH7aBssUP8YarwAY\u0026len=472\u0026ns=yt\u0026plid=AAW0mUr7SfoEaGpc\u0026ver=2",
+			elapsedMediaTimeSeconds: 5,
+		},
+		youtubeRemarketingUrl: {
+			baseUrl:
+				"https://www.youtube.com/pagead/viewthroughconversion/962985656/?backend=innertube\u0026cname=1\u0026cver=2_20201118\u0026data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20201118%3Bptype%3Df_view%3Btype%3Dview%3Butuid%3DsvqVGtbbyHaMoevxPAq9Fg%3Butvid%3DukzFI9rgwfU\u0026foc_id=svqVGtbbyHaMoevxPAq9Fg\u0026label=followon_view\u0026ptype=f_view\u0026random=95413723\u0026utuid=svqVGtbbyHaMoevxPAq9Fg",
+			elapsedMediaTimeSeconds: 0,
+		},
+		googleRemarketingUrl: {
+			baseUrl:
+				"https://www.google.com/pagead/1p-user-list/962985656/?backend=innertube\u0026cname=1\u0026cver=2_20201118\u0026data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20201118%3Bptype%3Df_view%3Btype%3Dview%3Butuid%3DsvqVGtbbyHaMoevxPAq9Fg%3Butvid%3DukzFI9rgwfU\u0026is_vtc=0\u0026ptype=f_view\u0026random=923816750\u0026utuid=svqVGtbbyHaMoevxPAq9Fg",
+			elapsedMediaTimeSeconds: 0,
+		},
+	},
+	captions: {
+		playerCaptionsRenderer: {
+			baseUrl:
+				"https://www.youtube.com/api/timedtext?v=ukzFI9rgwfU\u0026asr_langs=de,en,es,fr,it,ja,ko,nl,pt,ru\u0026caps=asr\u0026xorp=true\u0026xoaf=5\u0026hl=en-GB\u0026ip=0.0.0.0\u0026ipbits=0\u0026expire=1605970564\u0026sparams=ip,ipbits,expire,v,asr_langs,caps,xorp,xoaf\u0026signature=600DE7B4BE63062F0BB652708B4EB2B8F32200CB.D596FE1551EFE6383B27B43F141C55274BB8AC42\u0026key=yt8",
+			visibility: "UNKNOWN",
+		},
+		playerCaptionsTracklistRenderer: {
+			captionTracks: [
+				{
+					baseUrl:
+						"https://www.youtube.com/api/timedtext?v=ukzFI9rgwfU\u0026asr_langs=de,en,es,fr,it,ja,ko,nl,pt,ru\u0026caps=asr\u0026xorp=true\u0026xoaf=5\u0026hl=en-GB\u0026ip=0.0.0.0\u0026ipbits=0\u0026expire=1605970564\u0026sparams=ip,ipbits,expire,v,asr_langs,caps,xorp,xoaf\u0026signature=06A4A9834AD58D246C493392F52566DF579D363B.9A6B695A25A98DE446C0815B2CE953A6537812F1\u0026key=yt8\u0026kind=asr\u0026lang=en",
+					name: {
+						simpleText: "English (auto-generated)",
+					},
+					vssId: "a.en",
+					languageCode: "en",
+					kind: "asr",
+					isTranslatable: true,
+				},
+			],
+			audioTracks: [{ captionTrackIndices: [0] }],
+			translationLanguages: [
+				{
+					languageCode: "af",
+					languageName: { simpleText: "Afrikaans" },
+				},
+				{
+					languageCode: "sq",
+					languageName: { simpleText: "Albanian" },
+				},
+				{
+					languageCode: "am",
+					languageName: { simpleText: "Amharic" },
+				},
+				{
+					languageCode: "ar",
+					languageName: { simpleText: "Arabic" },
+				},
+				{
+					languageCode: "hy",
+					languageName: { simpleText: "Armenian" },
+				},
+				{
+					languageCode: "az",
+					languageName: { simpleText: "Azerbaijani" },
+				},
+				{
+					languageCode: "bn",
+					languageName: { simpleText: "Bangla" },
+				},
+				{
+					languageCode: "eu",
+					languageName: { simpleText: "Basque" },
+				},
+				{
+					languageCode: "be",
+					languageName: { simpleText: "Belarusian" },
+				},
+				{
+					languageCode: "bs",
+					languageName: { simpleText: "Bosnian" },
+				},
+				{
+					languageCode: "bg",
+					languageName: { simpleText: "Bulgarian" },
+				},
+				{
+					languageCode: "my",
+					languageName: { simpleText: "Burmese" },
+				},
+				{
+					languageCode: "ca",
+					languageName: { simpleText: "Catalan" },
+				},
+				{
+					languageCode: "ceb",
+					languageName: { simpleText: "Cebuano" },
+				},
+				{
+					languageCode: "zh-Hans",
+					languageName: {
+						simpleText: "Chinese (Simplified)",
+					},
+				},
+				{
+					languageCode: "zh-Hant",
+					languageName: {
+						simpleText: "Chinese (Traditional)",
+					},
+				},
+				{
+					languageCode: "co",
+					languageName: { simpleText: "Corsican" },
+				},
+				{
+					languageCode: "hr",
+					languageName: { simpleText: "Croatian" },
+				},
+				{
+					languageCode: "cs",
+					languageName: { simpleText: "Czech" },
+				},
+				{
+					languageCode: "da",
+					languageName: { simpleText: "Danish" },
+				},
+				{
+					languageCode: "nl",
+					languageName: { simpleText: "Dutch" },
+				},
+				{
+					languageCode: "en",
+					languageName: { simpleText: "English" },
+				},
+				{
+					languageCode: "eo",
+					languageName: { simpleText: "Esperanto" },
+				},
+				{
+					languageCode: "et",
+					languageName: { simpleText: "Estonian" },
+				},
+				{
+					languageCode: "fil",
+					languageName: { simpleText: "Filipino" },
+				},
+				{
+					languageCode: "fi",
+					languageName: { simpleText: "Finnish" },
+				},
+				{
+					languageCode: "fr",
+					languageName: { simpleText: "French" },
+				},
+				{
+					languageCode: "gl",
+					languageName: { simpleText: "Galician" },
+				},
+				{
+					languageCode: "ka",
+					languageName: { simpleText: "Georgian" },
+				},
+				{
+					languageCode: "de",
+					languageName: { simpleText: "German" },
+				},
+				{
+					languageCode: "el",
+					languageName: { simpleText: "Greek" },
+				},
+				{
+					languageCode: "gu",
+					languageName: { simpleText: "Gujarati" },
+				},
+				{
+					languageCode: "ht",
+					languageName: { simpleText: "Haitian Creole" },
+				},
+				{
+					languageCode: "ha",
+					languageName: { simpleText: "Hausa" },
+				},
+				{
+					languageCode: "haw",
+					languageName: { simpleText: "Hawaiian" },
+				},
+				{
+					languageCode: "iw",
+					languageName: { simpleText: "Hebrew" },
+				},
+				{
+					languageCode: "hi",
+					languageName: { simpleText: "Hindi" },
+				},
+				{
+					languageCode: "hmn",
+					languageName: { simpleText: "Hmong" },
+				},
+				{
+					languageCode: "hu",
+					languageName: { simpleText: "Hungarian" },
+				},
+				{
+					languageCode: "is",
+					languageName: { simpleText: "Icelandic" },
+				},
+				{
+					languageCode: "ig",
+					languageName: { simpleText: "Igbo" },
+				},
+				{
+					languageCode: "id",
+					languageName: { simpleText: "Indonesian" },
+				},
+				{
+					languageCode: "ga",
+					languageName: { simpleText: "Irish" },
+				},
+				{
+					languageCode: "it",
+					languageName: { simpleText: "Italian" },
+				},
+				{
+					languageCode: "ja",
+					languageName: { simpleText: "Japanese" },
+				},
+				{
+					languageCode: "jv",
+					languageName: { simpleText: "Javanese" },
+				},
+				{
+					languageCode: "kn",
+					languageName: { simpleText: "Kannada" },
+				},
+				{
+					languageCode: "kk",
+					languageName: { simpleText: "Kazakh" },
+				},
+				{
+					languageCode: "km",
+					languageName: { simpleText: "Khmer" },
+				},
+				{
+					languageCode: "rw",
+					languageName: { simpleText: "Kinyarwanda" },
+				},
+				{
+					languageCode: "ko",
+					languageName: { simpleText: "Korean" },
+				},
+				{
+					languageCode: "ku",
+					languageName: { simpleText: "Kurdish" },
+				},
+				{
+					languageCode: "ky",
+					languageName: { simpleText: "Kyrgyz" },
+				},
+				{
+					languageCode: "lo",
+					languageName: { simpleText: "Lao" },
+				},
+				{
+					languageCode: "la",
+					languageName: { simpleText: "Latin" },
+				},
+				{
+					languageCode: "lv",
+					languageName: { simpleText: "Latvian" },
+				},
+				{
+					languageCode: "lt",
+					languageName: { simpleText: "Lithuanian" },
+				},
+				{
+					languageCode: "lb",
+					languageName: { simpleText: "Luxembourgish" },
+				},
+				{
+					languageCode: "mk",
+					languageName: { simpleText: "Macedonian" },
+				},
+				{
+					languageCode: "mg",
+					languageName: { simpleText: "Malagasy" },
+				},
+				{
+					languageCode: "ms",
+					languageName: { simpleText: "Malay" },
+				},
+				{
+					languageCode: "ml",
+					languageName: { simpleText: "Malayalam" },
+				},
+				{
+					languageCode: "mt",
+					languageName: { simpleText: "Maltese" },
+				},
+				{
+					languageCode: "mi",
+					languageName: { simpleText: "Maori" },
+				},
+				{
+					languageCode: "mr",
+					languageName: { simpleText: "Marathi" },
+				},
+				{
+					languageCode: "mn",
+					languageName: { simpleText: "Mongolian" },
+				},
+				{
+					languageCode: "ne",
+					languageName: { simpleText: "Nepali" },
+				},
+				{
+					languageCode: "no",
+					languageName: { simpleText: "Norwegian" },
+				},
+				{
+					languageCode: "ny",
+					languageName: { simpleText: "Nyanja" },
+				},
+				{
+					languageCode: "or",
+					languageName: { simpleText: "Odia" },
+				},
+				{
+					languageCode: "ps",
+					languageName: { simpleText: "Pashto" },
+				},
+				{
+					languageCode: "fa",
+					languageName: { simpleText: "Persian" },
+				},
+				{
+					languageCode: "pl",
+					languageName: { simpleText: "Polish" },
+				},
+				{
+					languageCode: "pt",
+					languageName: { simpleText: "Portuguese" },
+				},
+				{
+					languageCode: "pa",
+					languageName: { simpleText: "Punjabi" },
+				},
+				{
+					languageCode: "ro",
+					languageName: { simpleText: "Romanian" },
+				},
+				{
+					languageCode: "ru",
+					languageName: { simpleText: "Russian" },
+				},
+				{
+					languageCode: "sm",
+					languageName: { simpleText: "Samoan" },
+				},
+				{
+					languageCode: "gd",
+					languageName: { simpleText: "Scottish Gaelic" },
+				},
+				{
+					languageCode: "sr",
+					languageName: { simpleText: "Serbian" },
+				},
+				{
+					languageCode: "sn",
+					languageName: { simpleText: "Shona" },
+				},
+				{
+					languageCode: "sd",
+					languageName: { simpleText: "Sindhi" },
+				},
+				{
+					languageCode: "si",
+					languageName: { simpleText: "Sinhala" },
+				},
+				{
+					languageCode: "sk",
+					languageName: { simpleText: "Slovak" },
+				},
+				{
+					languageCode: "sl",
+					languageName: { simpleText: "Slovenian" },
+				},
+				{
+					languageCode: "so",
+					languageName: { simpleText: "Somali" },
+				},
+				{
+					languageCode: "st",
+					languageName: { simpleText: "Southern Sotho" },
+				},
+				{
+					languageCode: "es",
+					languageName: { simpleText: "Spanish" },
+				},
+				{
+					languageCode: "su",
+					languageName: { simpleText: "Sundanese" },
+				},
+				{
+					languageCode: "sw",
+					languageName: { simpleText: "Swahili" },
+				},
+				{
+					languageCode: "sv",
+					languageName: { simpleText: "Swedish" },
+				},
+				{
+					languageCode: "tg",
+					languageName: { simpleText: "Tajik" },
+				},
+				{
+					languageCode: "ta",
+					languageName: { simpleText: "Tamil" },
+				},
+				{
+					languageCode: "tt",
+					languageName: { simpleText: "Tatar" },
+				},
+				{
+					languageCode: "te",
+					languageName: { simpleText: "Telugu" },
+				},
+				{
+					languageCode: "th",
+					languageName: { simpleText: "Thai" },
+				},
+				{
+					languageCode: "tr",
+					languageName: { simpleText: "Turkish" },
+				},
+				{
+					languageCode: "tk",
+					languageName: { simpleText: "Turkmen" },
+				},
+				{
+					languageCode: "uk",
+					languageName: { simpleText: "Ukrainian" },
+				},
+				{
+					languageCode: "ur",
+					languageName: { simpleText: "Urdu" },
+				},
+				{
+					languageCode: "ug",
+					languageName: { simpleText: "Uyghur" },
+				},
+				{
+					languageCode: "uz",
+					languageName: { simpleText: "Uzbek" },
+				},
+				{
+					languageCode: "vi",
+					languageName: { simpleText: "Vietnamese" },
+				},
+				{
+					languageCode: "cy",
+					languageName: { simpleText: "Welsh" },
+				},
+				{
+					languageCode: "fy",
+					languageName: { simpleText: "Western Frisian" },
+				},
+				{
+					languageCode: "xh",
+					languageName: { simpleText: "Xhosa" },
+				},
+				{
+					languageCode: "yi",
+					languageName: { simpleText: "Yiddish" },
+				},
+				{
+					languageCode: "yo",
+					languageName: { simpleText: "Yoruba" },
+				},
+				{
+					languageCode: "zu",
+					languageName: { simpleText: "Zulu" },
+				},
+			],
+			defaultAudioTrackIndex: 0,
+		},
+	},
+	videoDetails: {
+		videoId: "ukzFI9rgwfU",
+		title:
+			"Machine Learning Basics | What Is Machine Learning? | Introduction To Machine Learning | Simplilearn",
+		lengthSeconds: "472",
+		keywords: [
+			"machine learning basics",
+			"machine learning basics for beginners",
+			"what is machine learning",
+			"introduction to machine learning",
+			"machine learning tutorial",
+			"machine learning tutorial for beginners",
+			"what is machine learning and how does it work",
+			"supervised and unsupervised learning",
+			"reinforcement learning",
+			"machine learning example",
+			"machine learning examples in real life",
+			"machine learning applications",
+			"machine learning algorithms",
+			"simplilearn machine learning",
+			"simplilearn",
+		],
+		channelId: "UCsvqVGtbbyHaMoevxPAq9Fg",
+		isOwnerViewing: false,
+		shortDescription:
+			"This Machine Learning basics video will help you understand what is Machine Learning, what are the types of Machine Learning - supervised, unsupervised \u0026 reinforcement learning, how Machine Learning works with simple examples, and will also explain how Machine Learning is being used in various industries. Machine learning is a core sub-area of artificial intelligence; it enables computers to get into a mode of self-learning without being explicitly programmed. When exposed to new data, these computer programs are enabled to learn, grow, change, and develop by themselves. So, put simply, the iterative aspect of machine learning is the ability to adapt to new data independently. This is possible as programs learn from previous computations and use “pattern recognition” to produce reliable results. Machine learning is starting to reshape how we live, and it’s time we understood what it is and why it matters. Now, let us deep dive into this short video and understand the basics of Machine Learning.\n\nBelow topics are explained in this Machine Learning basics video:\n1. What is Machine Learning? ( 00:21 )\n2. Types of Machine Learning ( 02:43 )\n2. What is Supervised Learning? ( 02:53 )\n3. What is Unsupervised Learning? ( 03:46 )\n4. What is Reinforcement Learning? ( 04:37 )\n5. Machine Learning applications ( 06:25 )\n\nSubscribe to our channel for more Machine Learning Tutorials: https://www.youtube.com/user/Simplilearn?sub_confirmation=1\n\nDownload the Machine Learning Career Guide to explore and step into the exciting world of Machine Learning, and follow the path towards your dream career- https://bit.ly/3eLuTUo\n\nWatch more videos on Machine Learning: https://www.youtube.com/watch?v=7JhjINPwfYQ\u0026list=PLEiEAq2VkUULYYgj13YHUWmRePqiu8Ddy\n\n#MachineLearning #WhatIsMachineLearning #MachineLearningTutorial #MachineLearningBasics #MachineLearningTutorialForBeginners #Simplilearn\n\nAbout Simplilearn Machine Learning course:\nA form of artificial intelligence, Machine Learning is revolutionizing the world of computing as well as all people’s digital interactions. Machine Learning powers such innovative automated technologies as recommendation engines, facial recognition, fraud protection and even self-driving cars. This Machine Learning course prepares engineers, data scientists and other professionals with the knowledge and hands-on skills required for certification and job competency in Machine Learning.\n\nWhy learn Machine Learning?\nMachine Learning is taking over the world- and with that, there is a growing need among companies for professionals to know the ins and outs of Machine Learning\nThe Machine Learning market size is expected to grow from USD 1.03 Billion in 2016 to USD 8.81 Billion by 2022, at a Compound Annual Growth Rate (CAGR) of 44.1% during the forecast period.\n\nWhat skills will you learn from this Machine Learning course?\n\nBy the end of this Machine Learning course, you will be able to:\n\n1. Master the concepts of supervised, unsupervised and reinforcement learning concepts and modeling.\n2. Gain practical mastery over principles, algorithms, and applications of Machine Learning through a hands-on approach which includes working on 28 projects and one capstone project.\n3. Acquire a thorough knowledge of the mathematical and heuristic aspects of Machine Learning.\n4. Understand the concepts and operation of support vector machines, kernel SVM, naive Bayes, decision tree classifier, random forest classifier, logistic regression, K-nearest neighbors, K-means clustering and more.\n5. Be able to model a wide variety of robust Machine Learning algorithms including deep learning, clustering, and recommendation systems\n\nWe recommend this Machine Learning training course for the following professionals in particular:\n1. Developers aspiring to be a data scientist or Machine Learning engineer\n2. Information architects who want to gain expertise in Machine Learning algorithms \n3. Analytics professionals who want to work in Machine Learning or artificial intelligence\n4. Graduates looking to build a career in data science and Machine Learning\n\nLearn more at: https://www.simplilearn.com/big-data-and-analytics/machine-learning-certification-training-course?utm_campaign=Machine-Learning-Basics-ukzFI9rgwfU\u0026utm_medium=Tutorials\u0026utm_source=youtube\n\nFor more updates on courses and tips follow us on:\n- Facebook: https://www.facebook.com/Simplilearn \n- Twitter: https://twitter.com/simplilearn \n- LinkedIn: https://www.linkedin.com/company/simplilearn\n- Website: https://www.simplilearn.com\n\nGet the Android app: http://bit.ly/1WlVo4u\nGet the iOS app: http://apple.co/1HIO5J0",
+		isCrawlable: true,
+		thumbnail: {
+			thumbnails: [
+				{
+					url:
+						"https://i.ytimg.com/vi/ukzFI9rgwfU/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB\u0026rs=AOn4CLC7mGiRIj7wOoj-PjmAd4XdMXJysQ",
+					width: 168,
+					height: 94,
+				},
+				{
+					url:
+						"https://i.ytimg.com/vi/ukzFI9rgwfU/hqdefault.jpg?sqp=-oaymwEYCMQBEG5IVfKriqkDCwgBFQAAiEIYAXAB\u0026rs=AOn4CLDl6EmV-OpU1v9Sd4SVi0CCYwmp0A",
+					width: 196,
+					height: 110,
+				},
+				{
+					url:
+						"https://i.ytimg.com/vi/ukzFI9rgwfU/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==\u0026rs=AOn4CLA2-o_XX6YnIPQtQJy21GU-MS3nfQ",
+					width: 246,
+					height: 138,
+				},
+				{
+					url:
+						"https://i.ytimg.com/vi/ukzFI9rgwfU/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==\u0026rs=AOn4CLDzmXnexYmhb36Zu-1RP56ebZgKEA",
+					width: 336,
+					height: 188,
+				},
+				{
+					url:
+						"https://i.ytimg.com/vi_webp/ukzFI9rgwfU/maxresdefault.webp",
+					width: 1920,
+					height: 1080,
+				},
+			],
+		},
+		useCipher: false,
+		averageRating: 4.863493,
+		allowRatings: true,
+		viewCount: "1560349",
+		author: "Simplilearn",
+		isPrivate: false,
+		isUnpluggedCorpus: false,
+		isLiveContent: false,
+	},
+	annotations: [
+		{
+			playerAnnotationsExpandedRenderer: {
+				featuredChannel: {
+					startTimeMs: "0",
+					endTimeMs: "451000",
+					watermark: {
+						thumbnails: [
+							{
+								url:
+									"https://i.ytimg.com/an/svqVGtbbyHaMoevxPAq9Fg/featured_channel.jpg?v=5e4d110c",
+								width: 40,
+								height: 40,
+							},
+						],
+					},
+					trackingParams:
+						"CBgQ8zciEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+					navigationEndpoint: {
+						clickTrackingParams:
+							"CBgQ8zciEwjQ7-vXlJPtAhW2gKwCHXHDCmgyAml2",
+						commandMetadata: {
+							webCommandMetadata: {
+								url:
+									"/channel/UCsvqVGtbbyHaMoevxPAq9Fg",
+								webPageType:
+									"WEB_PAGE_TYPE_CHANNEL",
+								rootVe: 3611,
+							},
+						},
+						browseEndpoint: {
+							browseId: "UCsvqVGtbbyHaMoevxPAq9Fg",
+						},
+					},
+					channelName: "Simplilearn",
+					subscribeButton: {
+						subscribeButtonRenderer: {
+							buttonText: {
+								runs: [{ text: "SUBSCRIBE" }],
+							},
+							subscribed: false,
+							enabled: true,
+							type: "FREE",
+							channelId: "UCsvqVGtbbyHaMoevxPAq9Fg",
+							showPreferences: false,
+							subscribedButtonText: {
+								runs: [{ text: "SUBSCRIBED" }],
+							},
+							unsubscribedButtonText: {
+								runs: [{ text: "SUBSCRIBE" }],
+							},
+							trackingParams:
+								"CBkQmysiEwjQ7-vXlJPtAhW2gKwCHXHDCmgyAml2",
+							unsubscribeButtonText: {
+								runs: [{ text: "UNSUBSCRIBE" }],
+							},
+							serviceEndpoints: [
+								{
+									clickTrackingParams:
+										"CBkQmysiEwjQ7-vXlJPtAhW2gKwCHXHDCmgyAml2",
+									commandMetadata: {
+										webCommandMetadata: {
+											url: "/service_ajax",
+											sendPost: true,
+											apiUrl:
+												"/youtubei/v1/subscription/subscribe",
+										},
+									},
+									subscribeEndpoint: {
+										channelIds: [
+											"UCsvqVGtbbyHaMoevxPAq9Fg",
+										],
+										params: "EgIIBBgA",
+									},
+								},
+								{
+									clickTrackingParams:
+										"CBkQmysiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+									commandMetadata: {
+										webCommandMetadata: {
+											url: "/service_ajax",
+											sendPost: true,
+										},
+									},
+									signalServiceEndpoint: {
+										signal: "CLIENT_SIGNAL",
+										actions: [
+											{
+												clickTrackingParams:
+													"CBkQmysiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+												openPopupAction: {
+													popup: {
+														confirmDialogRenderer: {
+															trackingParams:
+																"CBoQxjgiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+															dialogMessages: [
+																{
+																	runs: [
+																		{
+																			text:
+																				"Unsubscribe from ",
+																		},
+																		{
+																			text:
+																				"Simplilearn",
+																		},
+																		{
+																			text:
+																				"?",
+																		},
+																	],
+																},
+															],
+															confirmButton: {
+																buttonRenderer: {
+																	style:
+																		"STYLE_BLUE_TEXT",
+																	size:
+																		"SIZE_DEFAULT",
+																	isDisabled: false,
+																	text: {
+																		runs: [
+																			{
+																				text:
+																					"Unsubscribe",
+																			},
+																		],
+																	},
+																	serviceEndpoint: {
+																		clickTrackingParams:
+																			"CBwQ8FsiEwjQ7-vXlJPtAhW2gKwCHXHDCmgyAml2",
+																		commandMetadata: {
+																			webCommandMetadata: {
+																				url:
+																					"/service_ajax",
+																				sendPost: true,
+																				apiUrl:
+																					"/youtubei/v1/subscription/unsubscribe",
+																			},
+																		},
+																		unsubscribeEndpoint: {
+																			channelIds: [
+																				"UCsvqVGtbbyHaMoevxPAq9Fg",
+																			],
+																			params:
+																				"CgIIBBgA",
+																		},
+																	},
+																	accessibility: {
+																		label:
+																			"Unsubscribe",
+																	},
+																	trackingParams:
+																		"CBwQ8FsiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+																},
+															},
+															cancelButton: {
+																buttonRenderer: {
+																	style:
+																		"STYLE_TEXT",
+																	size:
+																		"SIZE_DEFAULT",
+																	isDisabled: false,
+																	text: {
+																		runs: [
+																			{
+																				text:
+																					"Cancel",
+																			},
+																		],
+																	},
+																	accessibility: {
+																		label:
+																			"Cancel",
+																	},
+																	trackingParams:
+																		"CBsQ8FsiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+																},
+															},
+															primaryIsCancel: false,
+														},
+													},
+													popupType:
+														"DIALOG",
+												},
+											},
+										],
+									},
+								},
+							],
+							subscribeAccessibility: {
+								accessibilityData: {
+									label:
+										"Subscribe to Simplilearn.",
+								},
+							},
+							unsubscribeAccessibility: {
+								accessibilityData: {
+									label:
+										"Unsubscribe from Simplilearn.",
+								},
+							},
+							signInEndpoint: {
+								clickTrackingParams:
+									"CBkQmysiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+								commandMetadata: {
+									webCommandMetadata: {
+										url:
+											"https://accounts.google.com/ServiceLogin?service=youtube\u0026uilel=3\u0026passive=true\u0026continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCsvqVGtbbyHaMoevxPAq9Fg%26feature%3Div%26continue_action%3DQUFFLUhqblZhSktEVXc3bXRJeTBiTkRjYURFbnZ6TEdYd3xBQ3Jtc0tsdnYzUTNWVElNdkRpQjEtLVFzTmxqbUpwTXRkbTMtSGRQYXJVM2Vpd0dGRm5RZFJ2Z2FEQUc1VVRtVHdCeHFWTF9fVnRUaG81dVZOOGhneTlyZVVSeTlhdVdETEoycmltX2hYWWx2VjQzcmVpMjhzNDQ1eWZnRGZOdEhPTEI5T0VkN2VFcDYtcUJ3Y3dtOWh1ZEF1SmxfSUpHcmpRSVpSNHJ0SVZmT29kOU1hTUctcURHU2dNNndVeTN5N2s2a1R5cV93NnY%253D\u0026hl=en-GB",
+									},
+								},
+							},
+						},
+					},
+				},
+				allowSwipeDismiss: true,
+				annotationId:
+					"57ceaf33-0000-2bf6-91e6-001a11487d84",
+			},
+		},
+	],
+	playerConfig: {
+		audioConfig: {
+			loudnessDb: -1.3396568,
+			perceptualLoudnessDb: -15.339657,
+			enablePerFormatLoudness: true,
+		},
+		streamSelectionConfig: { maxBitrate: "3480000" },
+		daiConfig: { enableServerStitchedDai: false },
+		mediaCommonConfig: {
+			dynamicReadaheadConfig: {
+				maxReadAheadMediaTimeMs: 120000,
+				minReadAheadMediaTimeMs: 15000,
+				readAheadGrowthRateMs: 1000,
+			},
+		},
+		webPlayerConfig: {
+			webPlayerActionsPorting: {
+				getSharePanelCommand: {
+					clickTrackingParams:
+						"CAAQu2kiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+					commandMetadata: {
+						webCommandMetadata: {
+							url: "/service_ajax",
+							sendPost: true,
+							apiUrl:
+								"/youtubei/v1/share/get_web_player_share_panel",
+						},
+					},
+					webPlayerShareEntityServiceEndpoint: {
+						serializedShareEntity:
+							"Cgt1a3pGSTlyZ3dmVQ%3D%3D",
+					},
+				},
+				subscribeCommand: {
+					clickTrackingParams:
+						"CAAQu2kiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+					commandMetadata: {
+						webCommandMetadata: {
+							url: "/service_ajax",
+							sendPost: true,
+							apiUrl:
+								"/youtubei/v1/subscription/subscribe",
+						},
+					},
+					subscribeEndpoint: {
+						channelIds: ["UCsvqVGtbbyHaMoevxPAq9Fg"],
+						params: "EgIIBxgA",
+					},
+				},
+				unsubscribeCommand: {
+					clickTrackingParams:
+						"CAAQu2kiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+					commandMetadata: {
+						webCommandMetadata: {
+							url: "/service_ajax",
+							sendPost: true,
+							apiUrl:
+								"/youtubei/v1/subscription/unsubscribe",
+						},
+					},
+					unsubscribeEndpoint: {
+						channelIds: ["UCsvqVGtbbyHaMoevxPAq9Fg"],
+						params: "CgIIBxgA",
+					},
+				},
+				addToWatchLaterCommand: {
+					clickTrackingParams:
+						"CAAQu2kiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+					commandMetadata: {
+						webCommandMetadata: {
+							url: "/service_ajax",
+							sendPost: true,
+							apiUrl:
+								"/youtubei/v1/browse/edit_playlist",
+						},
+					},
+					playlistEditEndpoint: {
+						playlistId: "WL",
+						actions: [
+							{
+								addedVideoId: "ukzFI9rgwfU",
+								action: "ACTION_ADD_VIDEO",
+							},
+						],
+					},
+				},
+				removeFromWatchLaterCommand: {
+					clickTrackingParams:
+						"CAAQu2kiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+					commandMetadata: {
+						webCommandMetadata: {
+							url: "/service_ajax",
+							sendPost: true,
+							apiUrl:
+								"/youtubei/v1/browse/edit_playlist",
+						},
+					},
+					playlistEditEndpoint: {
+						playlistId: "WL",
+						actions: [
+							{
+								action:
+									"ACTION_REMOVE_VIDEO_BY_VIDEO_ID",
+								removedVideoId: "ukzFI9rgwfU",
+							},
+						],
+					},
+				},
+			},
+		},
+	},
+	storyboards: {
+		playerStoryboardSpecRenderer: {
+			spec:
+				"https://i.ytimg.com/sb/ukzFI9rgwfU/storyboard3_L$L/$N.jpg?sqp=-oaymwENSDfyq4qpAwVwAcABAaLzl_8DBgicuondBQ==|48#27#100#10#10#0#default#rs$AOn4CLB69F-wAYqiFf5SfoeGmYkXtZzGpQ|80#45#96#10#10#5000#M$M#rs$AOn4CLBe4lO-HEzobcASSm4tLxdYKKMYaw|160#90#96#5#5#5000#M$M#rs$AOn4CLA4XZkzqTxuNtWWy_Cn6oPwOSZ8AA",
+		},
+	},
+	microformat: {
+		playerMicroformatRenderer: {
+			thumbnail: {
+				thumbnails: [
+					{
+						url:
+							"https://i.ytimg.com/vi/ukzFI9rgwfU/maxresdefault.jpg",
+						width: 1280,
+						height: 720,
+					},
+				],
+			},
+			embed: {
+				iframeUrl:
+					"https://www.youtube.com/embed/ukzFI9rgwfU",
+				flashUrl:
+					"http://www.youtube.com/v/ukzFI9rgwfU?version=3\u0026autohide=1",
+				width: 1280,
+				height: 720,
+				flashSecureUrl:
+					"https://www.youtube.com/v/ukzFI9rgwfU?version=3\u0026autohide=1",
+			},
+			title: {
+				simpleText:
+					"Machine Learning Basics | What Is Machine Learning? | Introduction To Machine Learning | Simplilearn",
+			},
+			description: {
+				simpleText:
+					"This Machine Learning basics video will help you understand what is Machine Learning, what are the types of Machine Learning - supervised, unsupervised \u0026 reinforcement learning, how Machine Learning works with simple examples, and will also explain how Machine Learning is being used in various industries. Machine learning is a core sub-area of artificial intelligence; it enables computers to get into a mode of self-learning without being explicitly programmed. When exposed to new data, these computer programs are enabled to learn, grow, change, and develop by themselves. So, put simply, the iterative aspect of machine learning is the ability to adapt to new data independently. This is possible as programs learn from previous computations and use “pattern recognition” to produce reliable results. Machine learning is starting to reshape how we live, and it’s time we understood what it is and why it matters. Now, let us deep dive into this short video and understand the basics of Machine Learning.\n\nBelow topics are explained in this Machine Learning basics video:\n1. What is Machine Learning? ( 00:21 )\n2. Types of Machine Learning ( 02:43 )\n2. What is Supervised Learning? ( 02:53 )\n3. What is Unsupervised Learning? ( 03:46 )\n4. What is Reinforcement Learning? ( 04:37 )\n5. Machine Learning applications ( 06:25 )\n\nSubscribe to our channel for more Machine Learning Tutorials: https://www.youtube.com/user/Simplilearn?sub_confirmation=1\n\nDownload the Machine Learning Career Guide to explore and step into the exciting world of Machine Learning, and follow the path towards your dream career- https://bit.ly/3eLuTUo\n\nWatch more videos on Machine Learning: https://www.youtube.com/watch?v=7JhjINPwfYQ\u0026list=PLEiEAq2VkUULYYgj13YHUWmRePqiu8Ddy\n\n#MachineLearning #WhatIsMachineLearning #MachineLearningTutorial #MachineLearningBasics #MachineLearningTutorialForBeginners #Simplilearn\n\nAbout Simplilearn Machine Learning course:\nA form of artificial intelligence, Machine Learning is revolutionizing the world of computing as well as all people’s digital interactions. Machine Learning powers such innovative automated technologies as recommendation engines, facial recognition, fraud protection and even self-driving cars. This Machine Learning course prepares engineers, data scientists and other professionals with the knowledge and hands-on skills required for certification and job competency in Machine Learning.\n\nWhy learn Machine Learning?\nMachine Learning is taking over the world- and with that, there is a growing need among companies for professionals to know the ins and outs of Machine Learning\nThe Machine Learning market size is expected to grow from USD 1.03 Billion in 2016 to USD 8.81 Billion by 2022, at a Compound Annual Growth Rate (CAGR) of 44.1% during the forecast period.\n\nWhat skills will you learn from this Machine Learning course?\n\nBy the end of this Machine Learning course, you will be able to:\n\n1. Master the concepts of supervised, unsupervised and reinforcement learning concepts and modeling.\n2. Gain practical mastery over principles, algorithms, and applications of Machine Learning through a hands-on approach which includes working on 28 projects and one capstone project.\n3. Acquire a thorough knowledge of the mathematical and heuristic aspects of Machine Learning.\n4. Understand the concepts and operation of support vector machines, kernel SVM, naive Bayes, decision tree classifier, random forest classifier, logistic regression, K-nearest neighbors, K-means clustering and more.\n5. Be able to model a wide variety of robust Machine Learning algorithms including deep learning, clustering, and recommendation systems\n\nWe recommend this Machine Learning training course for the following professionals in particular:\n1. Developers aspiring to be a data scientist or Machine Learning engineer\n2. Information architects who want to gain expertise in Machine Learning algorithms \n3. Analytics professionals who want to work in Machine Learning or artificial intelligence\n4. Graduates looking to build a career in data science and Machine Learning\n\nLearn more at: https://www.simplilearn.com/big-data-and-analytics/machine-learning-certification-training-course?utm_campaign=Machine-Learning-Basics-ukzFI9rgwfU\u0026utm_medium=Tutorials\u0026utm_source=youtube\n\nFor more updates on courses and tips follow us on:\n- Facebook: https://www.facebook.com/Simplilearn \n- Twitter: https://twitter.com/simplilearn \n- LinkedIn: https://www.linkedin.com/company/simplilearn\n- Website: https://www.simplilearn.com\n\nGet the Android app: http://bit.ly/1WlVo4u\nGet the iOS app: http://apple.co/1HIO5J0",
+			},
+			lengthSeconds: "472",
+			ownerProfileUrl:
+				"http://www.youtube.com/user/Simplilearn",
+			externalChannelId: "UCsvqVGtbbyHaMoevxPAq9Fg",
+			isFamilySafe: true,
+			availableCountries: [
+				"AD",
+				"AE",
+				"AF",
+				"AG",
+				"AI",
+				"AL",
+				"AM",
+				"AO",
+				"AQ",
+				"AR",
+				"AS",
+				"AT",
+				"AU",
+				"AW",
+				"AX",
+				"AZ",
+				"BA",
+				"BB",
+				"BD",
+				"BE",
+				"BF",
+				"BG",
+				"BH",
+				"BI",
+				"BJ",
+				"BL",
+				"BM",
+				"BN",
+				"BO",
+				"BQ",
+				"BR",
+				"BS",
+				"BT",
+				"BV",
+				"BW",
+				"BY",
+				"BZ",
+				"CA",
+				"CC",
+				"CD",
+				"CF",
+				"CG",
+				"CH",
+				"CI",
+				"CK",
+				"CL",
+				"CM",
+				"CN",
+				"CO",
+				"CR",
+				"CU",
+				"CV",
+				"CW",
+				"CX",
+				"CY",
+				"CZ",
+				"DE",
+				"DJ",
+				"DK",
+				"DM",
+				"DO",
+				"DZ",
+				"EC",
+				"EE",
+				"EG",
+				"EH",
+				"ER",
+				"ES",
+				"ET",
+				"FI",
+				"FJ",
+				"FK",
+				"FM",
+				"FO",
+				"FR",
+				"GA",
+				"GB",
+				"GD",
+				"GE",
+				"GF",
+				"GG",
+				"GH",
+				"GI",
+				"GL",
+				"GM",
+				"GN",
+				"GP",
+				"GQ",
+				"GR",
+				"GS",
+				"GT",
+				"GU",
+				"GW",
+				"GY",
+				"HK",
+				"HM",
+				"HN",
+				"HR",
+				"HT",
+				"HU",
+				"ID",
+				"IE",
+				"IL",
+				"IM",
+				"IN",
+				"IO",
+				"IQ",
+				"IR",
+				"IS",
+				"IT",
+				"JE",
+				"JM",
+				"JO",
+				"JP",
+				"KE",
+				"KG",
+				"KH",
+				"KI",
+				"KM",
+				"KN",
+				"KP",
+				"KR",
+				"KW",
+				"KY",
+				"KZ",
+				"LA",
+				"LB",
+				"LC",
+				"LI",
+				"LK",
+				"LR",
+				"LS",
+				"LT",
+				"LU",
+				"LV",
+				"LY",
+				"MA",
+				"MC",
+				"MD",
+				"ME",
+				"MF",
+				"MG",
+				"MH",
+				"MK",
+				"ML",
+				"MM",
+				"MN",
+				"MO",
+				"MP",
+				"MQ",
+				"MR",
+				"MS",
+				"MT",
+				"MU",
+				"MV",
+				"MW",
+				"MX",
+				"MY",
+				"MZ",
+				"NA",
+				"NC",
+				"NE",
+				"NF",
+				"NG",
+				"NI",
+				"NL",
+				"NO",
+				"NP",
+				"NR",
+				"NU",
+				"NZ",
+				"OM",
+				"PA",
+				"PE",
+				"PF",
+				"PG",
+				"PH",
+				"PK",
+				"PL",
+				"PM",
+				"PN",
+				"PR",
+				"PS",
+				"PT",
+				"PW",
+				"PY",
+				"QA",
+				"RE",
+				"RO",
+				"RS",
+				"RU",
+				"RW",
+				"SA",
+				"SB",
+				"SC",
+				"SD",
+				"SE",
+				"SG",
+				"SH",
+				"SI",
+				"SJ",
+				"SK",
+				"SL",
+				"SM",
+				"SN",
+				"SO",
+				"SR",
+				"SS",
+				"ST",
+				"SV",
+				"SX",
+				"SY",
+				"SZ",
+				"TC",
+				"TD",
+				"TF",
+				"TG",
+				"TH",
+				"TJ",
+				"TK",
+				"TL",
+				"TM",
+				"TN",
+				"TO",
+				"TR",
+				"TT",
+				"TV",
+				"TW",
+				"TZ",
+				"UA",
+				"UG",
+				"UM",
+				"US",
+				"UY",
+				"UZ",
+				"VA",
+				"VC",
+				"VE",
+				"VG",
+				"VI",
+				"VN",
+				"VU",
+				"WF",
+				"WS",
+				"YE",
+				"YT",
+				"ZA",
+				"ZM",
+				"ZW",
+			],
+			isUnlisted: false,
+			hasYpcMetadata: false,
+			viewCount: "1560349",
+			category: "Education",
+			publishDate: "2018-09-19",
+			ownerChannelName: "Simplilearn",
+			uploadDate: "2018-09-19",
+		},
+	},
+	cards: {
+		cardCollectionRenderer: {
+			cards: [
+				{
+					cardRenderer: {
+						teaser: {
+							simpleCardTeaserRenderer: {
+								message: {
+									simpleText:
+										"Machine Learning Career Guide",
+								},
+								trackingParams:
+									"CBcQ0DYiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+								prominent: true,
+								logVisibilityUpdates: true,
+							},
+						},
+						content: {
+							simpleCardContentRenderer: {
+								image: {
+									thumbnails: [
+										{
+											url:
+												"https://yt3.ggpht.com/proxy/aTtRAMG0Jh7WJnDwMKbvd0ujV6WoxELj77yxoe3IfAHymFbpMkBhrsFC6nEgU3oP7wQTQDuD90W8TAt0aS7eZ9sBSDSyP1eLKdQBAO4470bB3G24CUBCOBqF5VC3iZ8ykpUVxyxbvwWoj51whZ9E23Lkl5dQC-3dp8Oo5mP1O86DwzZkiu8plUGF=-w250-h250-n-rj-c0xffffffff",
+											width: 250,
+											height: 250,
+										},
+										{
+											url:
+												"https://yt3.ggpht.com/proxy/aTtRAMG0Jh7WJnDwMKbvd0ujV6WoxELj77yxoe3IfAHymFbpMkBhrsFC6nEgU3oP7wQTQDuD90W8TAt0aS7eZ9sBSDSyP1eLKdQBAO4470bB3G24CUBCOBqF5VC3iZ8ykpUVxyxbvwWoj51whZ9E23Lkl5dQC-3dp8Oo5mP1O86DwzZkiu8plUGF=-w400-h400-n-rj-c0xffffffff",
+											width: 400,
+											height: 400,
+										},
+									],
+								},
+								title: {
+									simpleText:
+										"Machine Learning Career Guide",
+								},
+								actionButton: {
+									simpleCardButtonRenderer: {
+										text: {
+											simpleText:
+												"Download Now!",
+										},
+										action: {
+											clickTrackingParams:
+												"CBYQ1jYiEwjQ7-vXlJPtAhW2gKwCHXHDCmgyBWNhcmRz",
+											commandMetadata: {
+												webCommandMetadata: {
+													url:
+														"https://www.youtube.com/redirect?event=infocard\u0026redir_token=QUFFLUhqa0VzMkxHTTRaRmNCWV9aZFFMUjB5amZtV0NEd3xBQ3Jtc0tuOWRROXU1Sk96OHJnbVNQRlVBS1JuYWFlUkRicGlaakxyYjlScXBOS3puRXR6cHZhX0U2dUxpTkhjMllMMUhUcGREdVZtWlo5SmdEZm1DNG9yNlhySTR5UXhQWVB3U29qcVBaQXpyQzF0Vk1Eb1lNSQ\u0026q=https%3A%2F%2Fwww.simplilearn.com%2Fmachine-learning-career-guide-pdf%3Futm_campaign%3DMachine-Learning-Basics-ukzFI9rgwfU%26utm_medium%3DTutorials%26utm_source%3Dyoutube",
+													webPageType:
+														"WEB_PAGE_TYPE_UNKNOWN",
+													rootVe: 83769,
+												},
+											},
+											urlEndpoint: {
+												url:
+													"https://www.youtube.com/redirect?event=infocard\u0026redir_token=QUFFLUhqa0VzMkxHTTRaRmNCWV9aZFFMUjB5amZtV0NEd3xBQ3Jtc0tuOWRROXU1Sk96OHJnbVNQRlVBS1JuYWFlUkRicGlaakxyYjlScXBOS3puRXR6cHZhX0U2dUxpTkhjMllMMUhUcGREdVZtWlo5SmdEZm1DNG9yNlhySTR5UXhQWVB3U29qcVBaQXpyQzF0Vk1Eb1lNSQ\u0026q=https%3A%2F%2Fwww.simplilearn.com%2Fmachine-learning-career-guide-pdf%3Futm_campaign%3DMachine-Learning-Basics-ukzFI9rgwfU%26utm_medium%3DTutorials%26utm_source%3Dyoutube",
+												target:
+													"TARGET_NEW_WINDOW",
+											},
+										},
+										trackingParams:
+											"CBYQ1jYiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+									},
+								},
+								trackingParams:
+									"CBUQ1TYiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+								displayDomain: {
+									simpleText: "simplilearn.com",
+								},
+								showLinkIcon: true,
+								callToAction: {
+									simpleText: "Download Now!",
+								},
+								command: {
+									clickTrackingParams:
+										"CBUQ1TYiEwjQ7-vXlJPtAhW2gKwCHXHDCmgyBWNhcmRz",
+									commandMetadata: {
+										webCommandMetadata: {
+											url:
+												"https://www.youtube.com/redirect?event=infocard\u0026redir_token=QUFFLUhqa0VzMkxHTTRaRmNCWV9aZFFMUjB5amZtV0NEd3xBQ3Jtc0tuOWRROXU1Sk96OHJnbVNQRlVBS1JuYWFlUkRicGlaakxyYjlScXBOS3puRXR6cHZhX0U2dUxpTkhjMllMMUhUcGREdVZtWlo5SmdEZm1DNG9yNlhySTR5UXhQWVB3U29qcVBaQXpyQzF0Vk1Eb1lNSQ\u0026q=https%3A%2F%2Fwww.simplilearn.com%2Fmachine-learning-career-guide-pdf%3Futm_campaign%3DMachine-Learning-Basics-ukzFI9rgwfU%26utm_medium%3DTutorials%26utm_source%3Dyoutube",
+											webPageType:
+												"WEB_PAGE_TYPE_UNKNOWN",
+											rootVe: 83769,
+										},
+									},
+									urlEndpoint: {
+										url:
+											"https://www.youtube.com/redirect?event=infocard\u0026redir_token=QUFFLUhqa0VzMkxHTTRaRmNCWV9aZFFMUjB5amZtV0NEd3xBQ3Jtc0tuOWRROXU1Sk96OHJnbVNQRlVBS1JuYWFlUkRicGlaakxyYjlScXBOS3puRXR6cHZhX0U2dUxpTkhjMllMMUhUcGREdVZtWlo5SmdEZm1DNG9yNlhySTR5UXhQWVB3U29qcVBaQXpyQzF0Vk1Eb1lNSQ\u0026q=https%3A%2F%2Fwww.simplilearn.com%2Fmachine-learning-career-guide-pdf%3Futm_campaign%3DMachine-Learning-Basics-ukzFI9rgwfU%26utm_medium%3DTutorials%26utm_source%3Dyoutube",
+										target: "TARGET_NEW_WINDOW",
+									},
+								},
+							},
+						},
+						cueRanges: [
+							{
+								startCardActiveMs: "406744",
+								endCardActiveMs: "411744",
+								teaserDurationMs: "7000",
+								iconAfterTeaserMs: "5000",
+							},
+						],
+						icon: {
+							infoCardIconRenderer: {
+								trackingParams:
+									"CBQQsJcBIhMI0O_r15ST7QIVtoCsAh1xwwpo",
+							},
+						},
+						trackingParams:
+							"CBMQspcBGAAiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+						cardId:
+							"87c64bcb-4e85-4aad-8101-34bdde8814b5",
+						feature: "cards",
+					},
+				},
+				{
+					cardRenderer: {
+						teaser: {
+							simpleCardTeaserRenderer: {
+								message: {
+									simpleText:
+										"Be A Machine Learning Engineer",
+								},
+								trackingParams:
+									"CBIQ0DYiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+								prominent: true,
+								logVisibilityUpdates: true,
+							},
+						},
+						content: {
+							simpleCardContentRenderer: {
+								image: {
+									thumbnails: [
+										{
+											url:
+												"https://i.ytimg.com/an/ukzFI9rgwfU/6bac5039-8b27-4fec-b51d-39484905c939_mq.jpg?v=5ba25e26",
+											width: 250,
+											height: 250,
+										},
+										{
+											url:
+												"https://i.ytimg.com/an/ukzFI9rgwfU/6bac5039-8b27-4fec-b51d-39484905c939_mq.jpg?v=5ba25e26",
+											width: 400,
+											height: 400,
+										},
+									],
+								},
+								title: {
+									simpleText:
+										"Machine Learning Certification Course",
+								},
+								actionButton: {
+									simpleCardButtonRenderer: {
+										text: {
+											simpleText:
+												"Learn More",
+										},
+										action: {
+											clickTrackingParams:
+												"CBEQ1jYiEwjQ7-vXlJPtAhW2gKwCHXHDCmgyBWNhcmRz",
+											commandMetadata: {
+												webCommandMetadata: {
+													url:
+														"https://www.youtube.com/redirect?event=infocard\u0026redir_token=QUFFLUhqbWtCdllvQlZNUThXVTdwMFhnYkNadjhrY3BQZ3xBQ3Jtc0tuYUljVjBPeWFWcnUtR0E5VlVjMVRDamxOOGs5T1BGa3RvcnlKX203Y1RnM1pjclJBWVowS2tyRk81SWVZSzVJOXJjWW5oR1VIVktBUDJNSUdQQWtGYWFvTE9wUmV3djB6SV9hRUlHUTdHdnJpUUhkcw\u0026q=https%3A%2F%2Fwww.simplilearn.com%2Fbig-data-and-analytics%2Fmachine-learning-certification-training-course%3Futm_campaign%3DMachine-Learning-Basics-ukzFI9rgwfU%26utm_medium%3DTutorials%26utm_source%3Dyoutube",
+													webPageType:
+														"WEB_PAGE_TYPE_UNKNOWN",
+													rootVe: 83769,
+												},
+											},
+											urlEndpoint: {
+												url:
+													"https://www.youtube.com/redirect?event=infocard\u0026redir_token=QUFFLUhqbWtCdllvQlZNUThXVTdwMFhnYkNadjhrY3BQZ3xBQ3Jtc0tuYUljVjBPeWFWcnUtR0E5VlVjMVRDamxOOGs5T1BGa3RvcnlKX203Y1RnM1pjclJBWVowS2tyRk81SWVZSzVJOXJjWW5oR1VIVktBUDJNSUdQQWtGYWFvTE9wUmV3djB6SV9hRUlHUTdHdnJpUUhkcw\u0026q=https%3A%2F%2Fwww.simplilearn.com%2Fbig-data-and-analytics%2Fmachine-learning-certification-training-course%3Futm_campaign%3DMachine-Learning-Basics-ukzFI9rgwfU%26utm_medium%3DTutorials%26utm_source%3Dyoutube",
+												target:
+													"TARGET_NEW_WINDOW",
+											},
+										},
+										trackingParams:
+											"CBEQ1jYiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+									},
+								},
+								trackingParams:
+									"CBAQ1TYiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+								displayDomain: {
+									simpleText: "simplilearn.com",
+								},
+								showLinkIcon: true,
+								callToAction: {
+									simpleText: "Learn More",
+								},
+								command: {
+									clickTrackingParams:
+										"CBAQ1TYiEwjQ7-vXlJPtAhW2gKwCHXHDCmgyBWNhcmRz",
+									commandMetadata: {
+										webCommandMetadata: {
+											url:
+												"https://www.youtube.com/redirect?event=infocard\u0026redir_token=QUFFLUhqbWtCdllvQlZNUThXVTdwMFhnYkNadjhrY3BQZ3xBQ3Jtc0tuYUljVjBPeWFWcnUtR0E5VlVjMVRDamxOOGs5T1BGa3RvcnlKX203Y1RnM1pjclJBWVowS2tyRk81SWVZSzVJOXJjWW5oR1VIVktBUDJNSUdQQWtGYWFvTE9wUmV3djB6SV9hRUlHUTdHdnJpUUhkcw\u0026q=https%3A%2F%2Fwww.simplilearn.com%2Fbig-data-and-analytics%2Fmachine-learning-certification-training-course%3Futm_campaign%3DMachine-Learning-Basics-ukzFI9rgwfU%26utm_medium%3DTutorials%26utm_source%3Dyoutube",
+											webPageType:
+												"WEB_PAGE_TYPE_UNKNOWN",
+											rootVe: 83769,
+										},
+									},
+									urlEndpoint: {
+										url:
+											"https://www.youtube.com/redirect?event=infocard\u0026redir_token=QUFFLUhqbWtCdllvQlZNUThXVTdwMFhnYkNadjhrY3BQZ3xBQ3Jtc0tuYUljVjBPeWFWcnUtR0E5VlVjMVRDamxOOGs5T1BGa3RvcnlKX203Y1RnM1pjclJBWVowS2tyRk81SWVZSzVJOXJjWW5oR1VIVktBUDJNSUdQQWtGYWFvTE9wUmV3djB6SV9hRUlHUTdHdnJpUUhkcw\u0026q=https%3A%2F%2Fwww.simplilearn.com%2Fbig-data-and-analytics%2Fmachine-learning-certification-training-course%3Futm_campaign%3DMachine-Learning-Basics-ukzFI9rgwfU%26utm_medium%3DTutorials%26utm_source%3Dyoutube",
+										target: "TARGET_NEW_WINDOW",
+									},
+								},
+							},
+						},
+						cueRanges: [
+							{
+								startCardActiveMs: "456299",
+								endCardActiveMs: "461299",
+								teaserDurationMs: "7000",
+								iconAfterTeaserMs: "5000",
+							},
+						],
+						icon: {
+							infoCardIconRenderer: {
+								trackingParams:
+									"CA8QsJcBIhMI0O_r15ST7QIVtoCsAh1xwwpo",
+							},
+						},
+						trackingParams:
+							"CA4QspcBGAEiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+						cardId:
+							"6bac5039-8b27-4fec-b51d-39484905c939",
+						feature: "cards",
+					},
+				},
+			],
+			headerText: { simpleText: "From Simplilearn" },
+			icon: {
+				infoCardIconRenderer: {
+					trackingParams:
+						"CA0QsJcBIhMI0O_r15ST7QIVtoCsAh1xwwpo",
+				},
+			},
+			closeButton: {
+				infoCardIconRenderer: {
+					trackingParams:
+						"CAwQsZcBIhMI0O_r15ST7QIVtoCsAh1xwwpo",
+				},
+			},
+			trackingParams: "CAsQwjciEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+			allowTeaserDismiss: true,
+			logIconVisibilityUpdates: true,
+		},
+	},
+	trackingParams: "CAAQu2kiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+	attestation: {
+		playerAttestationRenderer: {
+			challenge:
+				"a=5\u0026a2=1\u0026b=29Fsd3yu2VDx2ppkiNBi3c2Ywqk\u0026c=1605945364\u0026d=1\u0026e=ukzFI9rgwfU\u0026c3a=22\u0026c1a=1\u0026c6a=1\u0026hh=ysN4jK36_dX2eLQtSVRGi9tiX-M_Bngml-bfqKPpbsU",
+			botguardData: {
+				program:
+					"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",
+				interpreterUrl:
+					"//www.google.com/js/bg/7ACX1ll8pxmp-W5IFnwplmFbwq_vDvpxp5bFF4q7ftk.js",
+			},
+		},
+	},
+	messages: [
+		{
+			mealbarPromoRenderer: {
+				icon: {
+					thumbnails: [
+						{
+							url:
+								"https://www.gstatic.com/youtube/img/promos/growth/6ad5a99c727579634bc3e2fb67562a2621170bdd11578967392667be5a05c5e4_384x384.png",
+							width: 384,
+							height: 384,
+						},
+					],
+				},
+				messageTexts: [
+					{
+						runs: [
+							{ text: "Get YouTube without the ads" },
+						],
+					},
+				],
+				actionButton: {
+					buttonRenderer: {
+						style: "STYLE_BLUE_TEXT",
+						size: "SIZE_DEFAULT",
+						text: { runs: [{ text: "1 month free" }] },
+						serviceEndpoint: {
+							clickTrackingParams:
+								"CAoQ7G8iEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+							commandMetadata: {
+								webCommandMetadata: {
+									url: "/service_ajax",
+									sendPost: true,
+									apiUrl: "/youtubei/v1/feedback",
+								},
+							},
+							feedbackEndpoint: {
+								feedbackToken:
+									"AB9zfpJtJA1rtKlnBSiEjb95V5gqqwbkD4mfC6qJM3GASaE69xNXREnxWc7mzwM-Sf4qdtXn0GmIQvInSYn3C0sxq4gEA-evZBtExHtd3Mgxcymloce3hkTOIOBZnv29GNgE-puL1kILaNvOyLNjeNXoJiNQVAohAQ",
+								uiActions: {
+									hideEnclosingContainer: true,
+								},
+							},
+						},
+						navigationEndpoint: {
+							clickTrackingParams:
+								"CAoQ7G8iEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+							commandMetadata: {
+								webCommandMetadata: {
+									url:
+										"/premium?ybp=Eg9GRXdoYXRfdG9fd2F0Y2gqEmRtZWEtYWNxLWMtZWdzb1ZEZDoaCAYYASoUChJkbWVhLWFjcS1jLWVnc29WRGQ%253D",
+									webPageType:
+										"WEB_PAGE_TYPE_BROWSE",
+									rootVe: 11487,
+								},
+							},
+							browseEndpoint: {
+								browseId: "SPunlimited",
+								params:
+									"kgNBEg9GRXdoYXRfdG9fd2F0Y2gqEmRtZWEtYWNxLWMtZWdzb1ZEZDoaCAYYASoUChJkbWVhLWFjcS1jLWVnc29WRGQ%3D",
+							},
+						},
+						trackingParams:
+							"CAoQ7G8iEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+					},
+				},
+				dismissButton: {
+					buttonRenderer: {
+						style: "STYLE_TEXT",
+						size: "SIZE_DEFAULT",
+						text: { runs: [{ text: "Skip trial" }] },
+						serviceEndpoint: {
+							clickTrackingParams:
+								"CAkQ7W8iEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+							commandMetadata: {
+								webCommandMetadata: {
+									url: "/service_ajax",
+									sendPost: true,
+									apiUrl: "/youtubei/v1/feedback",
+								},
+							},
+							feedbackEndpoint: {
+								feedbackToken:
+									"AB9zfpJzR4xnyBKMMiHKUKwvZ8AjLetSdJIEk9HEhIO99DY4vngBrv_Q-dt1EAhf9IlwHqHYwaCixFnQ8QdF0dRzNqKtWDcuMnOoGBvK9-GA2oiV9noYj2L8QdrK10ff6GWO3gc5jlbAvH4zTL1zW75rNUB-dt2qsQ",
+								uiActions: {
+									hideEnclosingContainer: true,
+								},
+							},
+						},
+						trackingParams:
+							"CAkQ7W8iEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+					},
+				},
+				triggerCondition: "TRIGGER_CONDITION_POST_AD",
+				style: "STYLE_MESSAGE",
+				trackingParams:
+					"CAgQ42kYASITCNDv69eUk-0CFbaArAIdccMKaA==",
+				impressionEndpoints: [
+					{
+						clickTrackingParams:
+							"CAgQ42kYASITCNDv69eUk-0CFbaArAIdccMKaA==",
+						commandMetadata: {
+							webCommandMetadata: {
+								url: "/service_ajax",
+								sendPost: true,
+								apiUrl: "/youtubei/v1/feedback",
+							},
+						},
+						feedbackEndpoint: {
+							feedbackToken:
+								"AB9zfpKPRcREQ_t0rb0dS_s17wXX4uBMi381pqQ8_ZhNh1Qxrjb87mVpFVHlYpkYsuGPcKZEWrhCi8Kequ-0R-DS_YoZ5bgtH6YKFJf8uglDHt_7aoY2kkbhXc7Fw5qt_NiG9FQwETPA9sMB-K36llJBzwvGbxM5Yg",
+							uiActions: {
+								hideEnclosingContainer: false,
+							},
+						},
+					},
+				],
+				isVisible: true,
+				messageTitle: {
+					runs: [{ text: "YouTube Premium" }],
+				},
+			},
+		},
+	],
+	endscreen: {
+		endscreenRenderer: {
+			elements: [
+				{
+					endscreenElementRenderer: {
+						style: "CHANNEL",
+						image: {
+							thumbnails: [
+								{
+									url:
+										"https://yt3.ggpht.com/ytc/AAUvwnhJqtFsDmOEb6Hr30-AtA9e_K2-rJE1J-IbfaB0WQ=s250-c-k-c0x00ffffff-no-rj",
+									width: 250,
+									height: 250,
+								},
+								{
+									url:
+										"https://yt3.ggpht.com/ytc/AAUvwnhJqtFsDmOEb6Hr30-AtA9e_K2-rJE1J-IbfaB0WQ=s400-c-k-c0x00ffffff-no-rj",
+									width: 400,
+									height: 400,
+								},
+							],
+						},
+						icon: {
+							thumbnails: [
+								{
+									url:
+										"https://www.gstatic.com/youtube/img/annotations/youtube.png",
+								},
+							],
+						},
+						left: 0.7263158,
+						width: 0.15438597,
+						top: 0.23909657,
+						aspectRatio: 1,
+						startMs: "461983",
+						endMs: "471922",
+						title: {
+							accessibility: {
+								accessibilityData: {
+									label: "Simplilearn, channel",
+								},
+							},
+							simpleText: "Simplilearn",
+						},
+						metadata: {
+							simpleText:
+								"Simplilearn is the world’s #1 online bootcamp focused on helping people acquire the skills they need to thrive in the digital economy.\n\nOur award-winning online bootcamps are designed and updated by 2000+ renowned industry and academic experts. Through individual courses, comprehensive certification programs, and partnerships with world-renowned universities, we provide millions of professionals and thousands of corporate training organizations with the work-ready skills they need to excel in their careers and businesses. Our practical and applied approach has resulted in 85 percent of learners getting promotions or new jobs on day one. With over 1,000 live classes each month, real-world projects, and more, professionals learn by doing at Simplilearn.\n\nFor more information, visit www.simplilearn.com",
+						},
+						callToAction: {
+							simpleText: "VISIT CHANNEL",
+						},
+						dismiss: { simpleText: "CANCEL" },
+						endpoint: {
+							clickTrackingParams:
+								"CAMQ-N4BGAAiEwjQ7-vXlJPtAhW2gKwCHXHDCmgyDGl2LWVuZHNjcmVlbkj1g4PXvaSxproB",
+							commandMetadata: {
+								webCommandMetadata: {
+									url:
+										"/channel/UCsvqVGtbbyHaMoevxPAq9Fg",
+									webPageType:
+										"WEB_PAGE_TYPE_CHANNEL",
+									rootVe: 3611,
+								},
+							},
+							browseEndpoint: {
+								browseId:
+									"UCsvqVGtbbyHaMoevxPAq9Fg",
+							},
+						},
+						hovercardButton: {
+							subscribeButtonRenderer: {
+								buttonText: {
+									runs: [{ text: "SUBSCRIBE" }],
+								},
+								subscribed: false,
+								enabled: true,
+								type: "FREE",
+								channelId:
+									"UCsvqVGtbbyHaMoevxPAq9Fg",
+								showPreferences: false,
+								subscribedButtonText: {
+									runs: [{ text: "SUBSCRIBED" }],
+								},
+								unsubscribedButtonText: {
+									runs: [{ text: "SUBSCRIBE" }],
+								},
+								trackingParams:
+									"CAQQmysiEwjQ7-vXlJPtAhW2gKwCHXHDCmgyDGl2LWVuZHNjcmVlbg==",
+								unsubscribeButtonText: {
+									runs: [{ text: "UNSUBSCRIBE" }],
+								},
+								serviceEndpoints: [
+									{
+										clickTrackingParams:
+											"CAQQmysiEwjQ7-vXlJPtAhW2gKwCHXHDCmgyDGl2LWVuZHNjcmVlbg==",
+										commandMetadata: {
+											webCommandMetadata: {
+												url:
+													"/service_ajax",
+												sendPost: true,
+												apiUrl:
+													"/youtubei/v1/subscription/subscribe",
+											},
+										},
+										subscribeEndpoint: {
+											channelIds: [
+												"UCsvqVGtbbyHaMoevxPAq9Fg",
+											],
+											params: "EgIIBBgA",
+										},
+									},
+									{
+										clickTrackingParams:
+											"CAQQmysiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+										commandMetadata: {
+											webCommandMetadata: {
+												url:
+													"/service_ajax",
+												sendPost: true,
+											},
+										},
+										signalServiceEndpoint: {
+											signal: "CLIENT_SIGNAL",
+											actions: [
+												{
+													clickTrackingParams:
+														"CAQQmysiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+													openPopupAction: {
+														popup: {
+															confirmDialogRenderer: {
+																trackingParams:
+																	"CAUQxjgiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+																dialogMessages: [
+																	{
+																		runs: [
+																			{
+																				text:
+																					"Unsubscribe from ",
+																			},
+																			{
+																				text:
+																					"Simplilearn",
+																			},
+																			{
+																				text:
+																					"?",
+																			},
+																		],
+																	},
+																],
+																confirmButton: {
+																	buttonRenderer: {
+																		style:
+																			"STYLE_BLUE_TEXT",
+																		size:
+																			"SIZE_DEFAULT",
+																		isDisabled: false,
+																		text: {
+																			runs: [
+																				{
+																					text:
+																						"Unsubscribe",
+																				},
+																			],
+																		},
+																		serviceEndpoint: {
+																			clickTrackingParams:
+																				"CAcQ8FsiEwjQ7-vXlJPtAhW2gKwCHXHDCmgyDGl2LWVuZHNjcmVlbg==",
+																			commandMetadata: {
+																				webCommandMetadata: {
+																					url:
+																						"/service_ajax",
+																					sendPost: true,
+																					apiUrl:
+																						"/youtubei/v1/subscription/unsubscribe",
+																				},
+																			},
+																			unsubscribeEndpoint: {
+																				channelIds: [
+																					"UCsvqVGtbbyHaMoevxPAq9Fg",
+																				],
+																				params:
+																					"CgIIBBgA",
+																			},
+																		},
+																		accessibility: {
+																			label:
+																				"Unsubscribe",
+																		},
+																		trackingParams:
+																			"CAcQ8FsiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+																	},
+																},
+																cancelButton: {
+																	buttonRenderer: {
+																		style:
+																			"STYLE_TEXT",
+																		size:
+																			"SIZE_DEFAULT",
+																		isDisabled: false,
+																		text: {
+																			runs: [
+																				{
+																					text:
+																						"Cancel",
+																				},
+																			],
+																		},
+																		accessibility: {
+																			label:
+																				"Cancel",
+																		},
+																		trackingParams:
+																			"CAYQ8FsiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+																	},
+																},
+																primaryIsCancel: false,
+															},
+														},
+														popupType:
+															"DIALOG",
+													},
+												},
+											],
+										},
+									},
+								],
+								subscribeAccessibility: {
+									accessibilityData: {
+										label:
+											"Subscribe to Simplilearn.",
+									},
+								},
+								unsubscribeAccessibility: {
+									accessibilityData: {
+										label:
+											"Unsubscribe from Simplilearn.",
+									},
+								},
+								signInEndpoint: {
+									clickTrackingParams:
+										"CAQQmysiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+									commandMetadata: {
+										webCommandMetadata: {
+											url:
+												"https://accounts.google.com/ServiceLogin?service=youtube\u0026uilel=3\u0026passive=true\u0026continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCsvqVGtbbyHaMoevxPAq9Fg%26feature%3Div-endscreen%26continue_action%3DQUFFLUhqa1d5MFVxeGlhNnZiUHhvVDJjd1VYdm1YV0N6Z3xBQ3Jtc0tseldsNl8wX01aUGtkWTJFR2VDNzdjbzZrRVdFYjFPSzVHd2NMLVdjSWNlMjhUNWNvNFczVFdCalpTR1poVUxjbExJckRtQ1ZWVUx1SjJFUVl3cWJUbVBlOEJSZ3o5S1BiMFB6cEd2VGxic2ZMandlZnFQQkVfWEdvdE93R3Y1Zl9QcnVkTExZLXc1bDRrby1nb3l5aG81Z3lUc3VaT3VOZzRMNzk1YWwyQ05iZ1JkOF9QNnltZXBZNUNweWhqVVNhMU5UbkI%253D\u0026hl=en-GB",
+										},
+									},
+								},
+							},
+						},
+						trackingParams:
+							"CAMQ-N4BGAAiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+						isSubscribe: true,
+						id: "87ab3542-25c9-407f-b223-17e4c11b3dab",
+					},
+				},
+				{
+					endscreenElementRenderer: {
+						style: "VIDEO",
+						image: {
+							thumbnails: [
+								{
+									url:
+										"https://i.ytimg.com/vi/G7fPB4OHkys/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB\u0026rs=AOn4CLBcHduuoG0RvofWr_4HZ0sj3dkpNQ",
+									width: 168,
+									height: 94,
+								},
+								{
+									url:
+										"https://i.ytimg.com/vi/G7fPB4OHkys/hqdefault.jpg?sqp=-oaymwEYCMQBEG5IVfKriqkDCwgBFQAAiEIYAXAB\u0026rs=AOn4CLCg9DifKZSx7HtsjTUy4BLh7cUz7w",
+									width: 196,
+									height: 110,
+								},
+								{
+									url:
+										"https://i.ytimg.com/vi/G7fPB4OHkys/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==\u0026rs=AOn4CLDgGAs7Q1Jxhmy7R6qW2sv8T0dYYQ",
+									width: 246,
+									height: 138,
+								},
+								{
+									url:
+										"https://i.ytimg.com/vi/G7fPB4OHkys/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==\u0026rs=AOn4CLDT3JeidlTrImLUI4k2q7-0dck7Bg",
+									width: 336,
+									height: 188,
+								},
+								{
+									url:
+										"https://i.ytimg.com/vi_webp/G7fPB4OHkys/maxresdefault.webp",
+									width: 1920,
+									height: 1080,
+								},
+							],
+						},
+						videoDuration: { simpleText: "34:52" },
+						left: 0.35964912,
+						width: 0.32280701,
+						top: 0.21495327,
+						aspectRatio: 1.7777778,
+						startMs: "461983",
+						endMs: "471922",
+						title: {
+							accessibility: {
+								accessibilityData: {
+									label:
+										"Machine Learning Tutorial | Machine Learning Basics | Machine Learning Algorithms | Simplilearn, video",
+								},
+							},
+							simpleText:
+								"Machine Learning Tutorial | Machine Learning Basics | Machine Learning Algorithms | Simplilearn",
+						},
+						metadata: { simpleText: "151,151 views" },
+						endpoint: {
+							clickTrackingParams:
+								"CAIQ8N4BGAEiEwjQ7-vXlJPtAhW2gKwCHXHDCmgyDGl2LWVuZHNjcmVlbkj1g4PXvaSxproBmgEDELtp",
+							commandMetadata: {
+								webCommandMetadata: {
+									url: "/watch?v=G7fPB4OHkys",
+									webPageType:
+										"WEB_PAGE_TYPE_WATCH",
+									rootVe: 3832,
+								},
+							},
+							watchEndpoint: {
+								videoId: "G7fPB4OHkys",
+							},
+						},
+						trackingParams:
+							"CAIQ8N4BGAEiEwjQ7-vXlJPtAhW2gKwCHXHDCmg=",
+						id: "ca133dcc-3469-4d7d-8dc7-e511e075afa9",
+					},
+				},
+			],
+			startMs: "451922",
+			trackingParams: "CAEQ794BIhMI0O_r15ST7QIVtoCsAh1xwwpo",
+		},
+	},
+};
