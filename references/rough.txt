@@ -1,3 +1,4 @@
+FOR TAGS
 html
 	body
 		script [2]
@@ -5,3 +6,12 @@ html
 				videoDetails
 					keywords:list
 
+FOR RELATED
+html
+	body
+
+
+#items
+document.querySelector("#items")
+//*[@id="items"]
+/html/body/ytd-app/div/ytd-page-manager/ytd-watch-flexy/div[4]/div[2]/div/div[3]/ytd-watch-next-secondary-results-renderer/div[2]
