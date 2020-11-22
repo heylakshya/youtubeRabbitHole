@@ -36,7 +36,7 @@ def getDataFromUrl(url):
 	body = soup.find("body")
 	
 	tags = []
-	print("---\tExtracting Tags")
+	# print("---\tExtracting Tags")
 	tag1 = 'window["ytInitialPlayerResponse"] = '
 	tag2 = 'if (window.ytcsi)'
 	p1 = src.find(tag1)
@@ -44,14 +44,14 @@ def getDataFromUrl(url):
 	jsontext = src[p1 + len(tag1):p2]
 	jsontext = jsontext.strip()
 	jsontext = jsontext[:-1]
-	jsondata = json.loads(jsontext)
 	try:
+		jsondata = json.loads(jsontext)
 		tags = jsondata["videoDetails"]["keywords"]
 	except:
 		return None, None
 
 
-	print("---\tExtracting Links")
+	# print("---\tExtracting Links")
 
 	items = body.find("ytd-app")
 	items = items.find("div", id="content")
@@ -73,14 +73,14 @@ def getDataFromUrl(url):
 		link = temp.find("a", id="thumbnail", href=True)
 		links.append('https://www.youtube.com' + link['href'])
 	driver.close()
-	print("---\tGot Data")
+	# print("---\tGot Data")
 	return tags, links
 
 def getRelevance(tags_source, tags_link):
 	'''
 	Return percentage relevance for two lists of tags
 	'''
-	print("---\tCalculating relevance")
+	# print("---\tCalculating relevance")
 	set1 = []
 	set2 = []
 	for tag in tags_source:
@@ -100,8 +100,8 @@ def getRelevance(tags_source, tags_link):
 	sentence1 = nlp(" ".join(set([token.lemma_ for token in sentence1 if not token.is_oov])))
 	sentence2 = nlp(" ".join(set([token.lemma_ for token in sentence2 if not token.is_oov])))
 
-	print("---\tsource:",sentence1)
-	print("---\tlink:",sentence2)
+	# print("---\tsource:",sentence1)
+	# print("---\tlink:",sentence2)
 
 	similar = []
 	for word1 in sentence1:
