@@ -25,52 +25,52 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 nlp = spacy.load('en_core_web_lg')
 
 def getDataFromUrl(url):
-	'''
-	Returns tags for the video, and list of recommended videos for the specified URL of a youtube webpage
-	'''
-	driver = webdriver.Chrome('chromedriver',options=chrome_options)
-	driver.get(url)
+    '''
+    Returns tags for the video, and list of recommended videos for the specified URL of a youtube webpage
+    '''
+    driver = webdriver.Chrome('chromedriver',options=chrome_options)
+    driver.get(url)
 
-	try:
-		w = WebDriverWait(driver, 1000)
-		w.until(EC.presence_of_all_elements_located((By.TAG_NAME,"ytd-compact-video-renderer")))
-		print("---\tpage loaded")
-	except:
-		return None, None
-	src = driver.page_source
-	soup = BeautifulSoup(src, 'html.parser')
-	body = soup.find("body")
-	
-	tags = []
-	# print("---\tExtracting Tags")
-	tag1 = 'window["ytInitialPlayerResponse"] = '
-	tag2 = 'if (window.ytcsi)'
-	p1 = src.find(tag1)
-	p2 = p1 + src[p1:].find(tag2)
-	jsontext = src[p1 + len(tag1):p2]
-	jsontext = jsontext.strip()
-	jsontext = jsontext[:-1]
-	try:
-		jsondata = json.loads(jsontext)
-		tags = jsondata["videoDetails"]["keywords"]
-	except:
-		return None, None
+    try:
+        w = WebDriverWait(driver, 1000)
+        w.until(EC.presence_of_all_elements_located((By.TAG_NAME,"ytd-compact-video-renderer")))
+        print("---\tpage loaded")
+    except:
+        return None, None
+    src = driver.page_source
+    soup = BeautifulSoup(src, 'html.parser')
+    body = soup.find("body")
+
+    tags = []
+    # print("---\tExtracting Tags")
+    tag1 = 'window["ytInitialPlayerResponse"] = '
+    tag2 = 'if (window.ytcsi)'
+    p1 = src.find(tag1)
+    p2 = p1 + src[p1:].find(tag2)
+    jsontext = src[p1 + len(tag1):p2]
+    jsontext = jsontext.strip()
+    jsontext = jsontext[:-1]
+    try:
+        jsondata = json.loads(jsontext)
+        tags = jsondata["videoDetails"]["keywords"]
+    except:
+        return None, None
 
 
-	# print("---\tExtracting Links")
+    # print("---\tExtracting Links")
 
-	items = body.find_all("ytd-compact-video-renderer")
+    items = body.find_all("ytd-compact-video-renderer")
 
-	links = []
+    links = []
 
-	for item in items:
-		temp = item.find("div", id="dismissable")
-		temp = temp.find("ytd-thumbnail")
-		link = temp.find("a", id="thumbnail", href=True)
-		links.append('https://www.youtube.com' + link['href'])
-	driver.close()
-	# print("---\tGot Data")
-	return tags, links
+    for item in items:
+        temp = item.find("div", id="dismissable")
+        temp = temp.find("ytd-thumbnail")
+        link = temp.find("a", id="thumbnail", href=True)
+        links.append('https://www.youtube.com' + link['href'])
+    driver.close()
+    # print("---\tGot Data")
+    return tags, links
 
 def getRelevance(tags_source, tags_link):
     '''
@@ -108,6 +108,8 @@ def getRelevance(tags_source, tags_link):
     else:
         return float(0)
 
+    print(vec1.shape)
+    print(vec1)
     similarity = float(vec1.dot(vec2)/(np.linalg.norm(vec1)*np.linalg.norm(vec2)))
     print("---\tsimilarity: ",similarity)
     return similarity
