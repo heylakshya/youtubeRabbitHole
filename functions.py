@@ -4,6 +4,8 @@ import re
 import json
 import numpy as np
 import spacy
+import random
+import matplotlib.pyplot as plt
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -12,7 +14,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
-from config import *
+
+stopwords = set(['i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', "you're", "you've", "you'll", "you'd", 'your', 'yours', 'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', "she's", 'her', 'hers', 'herself', 'it', "it's", 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 'what', 'which', 'who', 'whom', 'this', 'that', "that'll", 'these', 'those', 'am', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a', 'an', 'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until', 'while', 'of', 'at', 'by', 'for', 'with', 'about', 'against', 'between', 'into', 'through', 'during', 'before', 'after', 'above', 'below', 'to', 'from', 'up', 'down', 'in', 'out', 'on', 'off', 'over', 'under', 'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where', 'why', 'how', 'all', 'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 'will', 'just', 'don', "don't", 'should', "should've", 'now', 'd', 'll', 'm', 'o', 're', 've', 'y', 'ain', 'aren', "aren't", 'couldn', "couldn't", 'didn', "didn't", 'doesn', "doesn't", 'hadn', "hadn't", 'hasn', "hasn't", 'haven', "haven't", 'isn', "isn't", 'ma', 'mightn', "mightn't", 'mustn', "mustn't", 'needn', "needn't", 'shan', "shan't", 'shouldn', "shouldn't", 'wasn', "wasn't", 'weren', "weren't", 'won', "won't", 'wouldn', "wouldn't"])
+
+chrome_options = Options()
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--disable-dev-shm-usage')
 
 nlp = spacy.load('en_core_web_lg')
 
@@ -20,13 +28,11 @@ def getDataFromUrl(url):
 	'''
 	Returns tags for the video, and list of recommended videos for the specified URL of a youtube webpage
 	'''
-	chrome_option = Options()
-	chrome_option.add_argument("--headless")
-	chrome_option.add_argument("--window-size=1920x1080")
-	driver = webdriver.Chrome(executable_path="./chromedriver", chrome_options=chrome_option)
+	driver = webdriver.Chrome('chromedriver',options=chrome_options)
 	driver.get(url)
+
 	try:
-		w = WebDriverWait(driver, 10)
+		w = WebDriverWait(driver, 1000)
 		w.until(EC.presence_of_all_elements_located((By.TAG_NAME,"ytd-compact-video-renderer")))
 		print("---\tpage loaded")
 	except:
@@ -53,17 +59,7 @@ def getDataFromUrl(url):
 
 	# print("---\tExtracting Links")
 
-	items = body.find("ytd-app")
-	items = items.find("div", id="content")
-	items = items.find("ytd-page-manager", id="page-manager")
-	items = items.find("ytd-watch-flexy")
-	items = items.find("div", id="columns")
-	items = items.find("div", id="secondary")
-	items = items.find("div", id="secondary-inner")
-	items = items.find("div", id="related")
-	items = items.find("ytd-watch-next-secondary-results-renderer")
-	items = items.find("div", id="items")
-	items = items.find_all("ytd-compact-video-renderer")
+	items = body.find_all("ytd-compact-video-renderer")
 
 	links = []
 
@@ -77,40 +73,41 @@ def getDataFromUrl(url):
 	return tags, links
 
 def getRelevance(tags_source, tags_link):
-	'''
-	Return percentage relevance for two lists of tags
-	'''
-	# print("---\tCalculating relevance")
-	set1 = []
-	set2 = []
-	for tag in tags_source:
-		set1 = set1 + tag.split()
-	for tag in tags_link:
-		set2 = set2 + tag.split()
-	
-	set1 = " ".join(list(set(set1)))
-	set2 = " ".join(list(set(set2)))
+    '''
+    Return percentage relevance for two lists of tags
+    '''
+    # print("---\tCalculating relevance")
+    set1 = []
+    set2 = []
+    for tag in tags_source:
+        set1 = set1 + tag.split()
+    for tag in tags_link:
+        set2 = set2 + tag.split()
 
-	sentence1 = nlp(set1)
-	sentence2 = nlp(set2)
+    set1 = " ".join(list(set(set1)))
+    set2 = " ".join(list(set(set2)))
 
-	sentence1 = nlp(" ".join([token.lemma_ for token in sentence1]))
-	sentence2 = nlp(" ".join([token.lemma_ for token in sentence2]))
+    sentence1 = nlp(set1)
+    sentence2 = nlp(set2)
 
-	sentence1 = nlp(" ".join(set([token.lemma_ for token in sentence1 if not token.is_oov])))
-	sentence2 = nlp(" ".join(set([token.lemma_ for token in sentence2 if not token.is_oov])))
+    sentence1 = nlp(" ".join([token.lemma_ for token in sentence1]))
+    sentence2 = nlp(" ".join([token.lemma_ for token in sentence2]))
 
-	# print("---\tsource:",sentence1)
-	# print("---\tlink:",sentence2)
+    sentence1 = nlp(" ".join(set([token.lemma_ for token in sentence1 if token.lemma_ in nlp.vocab]) - stopwords))
+    sentence2 = nlp(" ".join(set([token.lemma_ for token in sentence2 if token.lemma_ in nlp.vocab]) - stopwords))
 
-	similar = []
-	for word1 in sentence1:
-		max_sim = 0
-		for word2 in sentence2:
-			max_sim = max(word1.similarity(word2),max_sim)
-		similar.append(max_sim)
-	
-	similar_arr = np.array(similar)
-	similarity = np.linalg.norm(similar_arr)/len(similar)
-	print("---\tsimilarity: ",similarity)
-	return similarity
+    # print("---\tsource:",sentence1)
+    # print("---\tlink:",sentence2)
+
+
+    list1 = [token.vector for token in sentence1]
+    list2 = [token.vector for token in sentence2]
+    if len(list1)!=0 and len(list2)!=0:
+        vec1 = sum(list1)/len(list1)
+        vec2 = sum(list2)/len(list2)
+    else:
+        return float(0)
+
+    similarity = float(vec1.dot(vec2)/(np.linalg.norm(vec1)*np.linalg.norm(vec2)))
+    print("---\tsimilarity: ",similarity)
+    return similarity
