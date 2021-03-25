@@ -1,4 +1,4 @@
-# youtube Rabbit Hole Analysis
+# YouTube Rabbit hole analysis
 YouTube users find it difficult to focus on the productive task or are quick to forget the initial purpose
 of their visit to the platform. The user needs to practise continuous control to stay on relevant topics -
 this mental load is inefficient, draining, and demoralizing.
